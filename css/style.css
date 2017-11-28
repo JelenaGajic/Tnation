@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(-90deg, blue, white, blue);
+}
+
+.goreLevo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.goreDesno {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.doleLevo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.doleDesno {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.wrap {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: blue;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation {
+    font-size: 0;
+}
+
+.navigation .dropdown {
+    display: inline-block;
+    position: relative;   
+}
+
+.dropdown {
+    border-right: 2px solid white;      
+}
+
+.dropdown:last-of-type {
+    border: none;
+}
+
+.navigation .dropbtn {
+    border: none;
+    color: white;
+    padding: 6px 60px;
+    background: blue; 
+    max-width: 151.83px; 
+}
+
+.dropbtn {
+    box-shadow: 0 2px 2px #000;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: blue;
+    opacity: 0.8;
+    min-width: 151.83px;
+}
+
+.dropdown-content a {
+    display: block; 
+    border-bottom: 1px solid yellow;
+    padding: 6px 40px;
+    font-size: 11px;
+}
+
+/* .dropdown:hover .dropdown-content {
+    display: block;
+} */
+
+.dropdown-content a:first-child:hover {
+    background: #F99;
+}
+
+.dropdown-content a:nth-child(2):hover {
+    background: #FF9;
+}
+.dropdown-content a:nth-child(3):hover {
+    background: #C8E;
+}
+
+.phpImages {
+    display: none;
+}
+
+.programming_image {
+    width: 450px;
+}
+
+
+
+
+/* #C8E, #F99 i #FF9 */
